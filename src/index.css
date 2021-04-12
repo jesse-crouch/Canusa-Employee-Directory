@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#users {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.user-box {
+  border: 1px solid black;
+  border-radius: 7px;
+  margin: 0.5% 1%;
+  width: 47%;
+  text-align: center;
+}
+
+.user-name {
+  padding: 1%;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  background: lightgray;
+}
+
+.user-details {
+  margin: 0;
+}
