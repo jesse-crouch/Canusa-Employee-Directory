@@ -15,13 +15,14 @@ code {
 #users {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .user-box {
   border: 1px solid black;
   border-radius: 7px;
-  margin: 0.5% 1%;
-  width: 47%;
+  width: 22em;
+  margin: 2%;
   text-align: center;
 }
 
@@ -34,4 +35,14 @@ code {
 
 .user-details {
   margin: 0;
+}
+
+#search-fields {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#search-fields input {
+  min-width: 20em;
 }
